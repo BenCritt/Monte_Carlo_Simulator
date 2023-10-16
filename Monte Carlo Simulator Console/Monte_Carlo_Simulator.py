@@ -11,5 +11,3 @@ plt.figure()
 plt.hist(sim_result, density=True, edgecolor="white")
 plt.axvline(target_val, color="r")
 plt.show()
-
-print((sim_result > target_val).sum() / sim_quantity)
